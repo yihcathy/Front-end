@@ -8,11 +8,12 @@ import { AlertProvider } from "./context/alertContext";
 import Alert from "./components/Alert";
 
 function App() {
+
   return (
     <ChakraProvider>
       <AlertProvider>
         <main>
-          <Header />
+          <Header/>
           <LandingSection />
           <ProjectsSection />
           <ContactMeSection />
